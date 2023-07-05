@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h2 {
+  color:#1b014c;
+}
+
+/* COLORS */
+:root {
+  --russian-violet-dark: #1b014c;
+  --russian-violet-light: #e5ddf6;
+  --sunglow-dark: #ffd23f;
+  --sunglow-light: #ffe89e;
+  --red-orange-dark: #fb5012;
+  --red-orange-light: #fed2vc2;
+  --fluorecent-blue-dark: #01fdf6;
+  --fluorecent-blue-light: #80fefa;
+  --lavender-blue-dark: #cbbaed;
+  --lavender-blue-light: #e5ddf6;
+  --light-coral-dark: #ef767a;
+  --light-coral-light: #fad8d9;
+  --sea-green-dark: #23f0c7;
+  --sea-green-light: #e0fdf7;
+  --middle-blue-purple-dark: #7d7abc;
+  --middle-blue-purple-light: #edecf5;
+  --ob-dark: #fb5012;
+  --ob-light: #fbac8f;
+  --og-dark: #632fae;
+  --og-light: #9686ae;
+  --oh-dark:#0956Fc;
+  --oh-light:#87acfc;
+  --os-dark:#0ce6A3;
+  --os-light:#8BF3D2;
+}
+
+.bg-btn-russian-violet {
+  background-color:#1b014c;
+}
+
+.text-russian-violet-500 {
+color:#1b014c;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.icon-list-img {
+  width:12px;
+}
+
+.img-thumbnail img{
+  max-width:125px !important;
+}
+
+.img-thumb {
+  width:100px;
+  height: auto;
+}
+
+.bg-russian-violet-dark {
+  background-color:var(--russian-violet-dark) !important;
+}
+
+.li-bg-russian-violet-dark:hover {
+  background-color:var(--russian-violet-dark) !important;
+}
+.bg-red-orange-dark {
+  background-color:var(--red-orange-dark);
+}
+
+/* .bg-red-orange-dark {
+  background-color:var(--russian-violet-dark);
+} */
+
+.text-red-orange-dark {
+  color:var(--red-orange-dark);
+}
+
+.text-russian-violet-dark {
+  color:var(--russian-violet-dark);
+}
+
+.text-main-color {
+  color:var(--russian-violet-dark);
+}
+/* .cards p {
+  font-size: 12px;
+} */
+
+.data-point a {
+  border-bottom: 1px solid var(--russian-violet-dark);
+
+}
